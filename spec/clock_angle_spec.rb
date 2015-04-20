@@ -18,7 +18,7 @@ describe('ClockTime') do
       expect(test_case.clock_angle()).to(eq(15))
     end
 
-    it('picks smaller of the two angles when it is 85 at 9:10') do
+    it('picks smaller of the two angles when it is 145 at 9:10') do
       test_case = ClockTime.new(9,10)
       expect(test_case.clock_angle()).to(eq(145))
     end
