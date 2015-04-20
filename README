@@ -1,0 +1,8 @@
+Authors:  Ben Cornelis & Jesse James
+Method:  clock_angle.rb
+Date:  April 20, 2015
+
+Summary:  Clock time class with clock_angle method that calculates the angle distance
+between the minute and hour hand and returns the smaller of the angle and 360 - angle.
+
+
